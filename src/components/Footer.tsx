@@ -116,27 +116,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Newsletter */}
-        <div className="mt-12 pt-8 border-t border-gray-800">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div>
-              <h3 className="text-lg font-semibold mb-2">Stay Updated</h3>
-              <p className="text-gray-400">
-                Subscribe to our newsletter for special offers, new services, and grooming tips.
-              </p>
-            </div>
-            <div className="flex space-x-4">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-purple-500 transition-colors text-white"
-              />
-              <button className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-lg hover:shadow-lg transition-all">
-                Subscribe
-              </button>
-            </div>
-          </div>
-        </div>
+     
 
         {/* Bottom Bar */}
         <div className="mt-8 pt-8 border-t border-gray-800">

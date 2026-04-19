@@ -1,0 +1,181 @@
+/* Dark Mode Styles */
+.dark {
+  color-scheme: dark;
+}
+
+/* Custom CSS variables for dark mode */
+.dark {
+  --background: #0f172a;
+  --foreground: #f8fafc;
+  --card: #1e293b;
+  --card-foreground: #f8fafc;
+  --popover: #1e293b;
+  --popover-foreground: #f8fafc;
+  --primary: #8b5cf6;
+  --primary-foreground: #f8fafc;
+  --secondary: #334155;
+  --secondary-foreground: #f8fafc;
+  --muted: #1e293b;
+  --muted-foreground: #94a3b8;
+  --accent: #8b5cf6;
+  --accent-foreground: #f8fafc;
+  --destructive: #ef4444;
+  --destructive-foreground: #f8fafc;
+  --border: #374151;
+  --input: #1e293b;
+  --ring: #8b5cf6;
+}
+
+/* Dark mode background colors */
+.dark body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+.dark .bg-white {
+  background-color: var(--card) !important;
+}
+
+.dark .bg-gray-50 {
+  background-color: var(--muted) !important;
+}
+
+.dark .bg-gray-100 {
+  background-color: var(--card) !important;
+}
+
+.dark .bg-gray-900 {
+  background-color: #0f172a !important;
+}
+
+/* Dark mode text colors */
+.dark .text-gray-900 {
+  color: var(--foreground) !important;
+}
+
+.dark .text-gray-600 {
+  color: #94a3b8 !important;
+}
+
+.dark .text-gray-500 {
+  color: #6b7280 !important;
+}
+
+.dark .text-gray-400 {
+  color: #94a3b8 !important;
+}
+
+/* Dark mode borders */
+.dark .border-gray-200 {
+  border-color: var(--border) !important;
+}
+
+.dark .border-gray-300 {
+  border-color: var(--border) !important;
+}
+
+.dark .border-gray-700 {
+  border-color: #374151 !important;
+}
+
+/* Dark mode form inputs */
+.dark input,
+.dark textarea {
+  background-color: var(--input) !important;
+  color: var(--foreground) !important;
+  border-color: var(--border) !important;
+}
+
+.dark input:focus,
+.dark textarea:focus {
+  border-color: var(--ring) !important;
+  box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.1) !important;
+}
+
+/* Dark mode buttons */
+.dark .bg-gradient-to-r.from-purple-600.to-pink-600 {
+  background: linear-gradient(to right, #7c3aed, #ec4899) !important;
+}
+
+.dark .border-purple-600 {
+  border-color: #7c3aed !important;
+}
+
+.dark .text-purple-600 {
+  color: #a5b4fc !important;
+}
+
+.dark .text-pink-600 {
+  color: #f472b6 !important;
+}
+
+/* Dark mode shadows */
+.dark .shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1) !important;
+}
+
+.dark .shadow-xl {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1) !important;
+}
+
+.dark .shadow-2xl {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Dark mode hover effects */
+.dark .hover\:shadow-lg:hover {
+  box-shadow: 0 10px 15px -3px rgba(139, 92, 246, 0.2) !important;
+}
+
+.dark .hover\:shadow-xl:hover {
+  box-shadow: 0 20px 25px -5px rgba(139, 92, 246, 0.25) !important;
+}
+
+.dark .hover\:shadow-2xl:hover {
+  box-shadow: 0 25px 50px -12px rgba(139, 92, 246, 0.3) !important;
+}
+
+/* Dark mode specific component overrides */
+.dark .bg-gradient-to-br.from-purple-400.to-pink-400 {
+  background: linear-gradient(to bottom right, #9333ea, #fb7185) !important;
+}
+
+.dark .bg-gradient-to-br.from-purple-300.via-purple-400.to-purple-600 {
+  background: linear-gradient(to bottom right, #7c3aed, #9333ea) !important;
+}
+
+.dark .bg-gradient-to-br.from-pink-300.via-pink-400.to-pink-600 {
+  background: linear-gradient(to bottom right, #f9a8d4, #db2777) !important;
+}
+
+/* Dark mode footer */
+.dark footer {
+  background-color: #0f172a !important;
+}
+
+/* Dark mode newsletter form */
+.dark .bg-gray-800 {
+  background-color: var(--input) !important;
+}
+
+/* Dark mode icons */
+.dark .text-yellow-400 {
+  color: #facc15 !important;
+}
+
+/* Dark mode transitions */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Mobile-specific dark mode optimizations */
+@media (max-width: 768px) {
+  .dark .fixed.top-4.right-4 {
+    top: 1rem !important;
+    right: 1rem !important;
+  }
+  
+  .dark .bg-white.rounded-full.p-3 {
+    padding: 0.75rem !important;
+  }
+}

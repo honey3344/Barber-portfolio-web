@@ -79,7 +79,7 @@ export default function BookingModal({ isOpen, onClose, service = '' }: BookingM
               value={formData.name}
               onChange={handleChange}
               required
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all text-gray-900"
               placeholder="John Doe"
             />
           </div>
@@ -96,7 +96,7 @@ export default function BookingModal({ isOpen, onClose, service = '' }: BookingM
               value={formData.email}
               onChange={handleChange}
               required
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all text-gray-900"
               placeholder="john@example.com"
             />
           </div>
@@ -113,7 +113,7 @@ export default function BookingModal({ isOpen, onClose, service = '' }: BookingM
               value={formData.phone}
               onChange={handleChange}
               required
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all text-gray-900"
               placeholder="(555) 123-4567"
             />
           </div>
@@ -129,7 +129,7 @@ export default function BookingModal({ isOpen, onClose, service = '' }: BookingM
               value={formData.service}
               onChange={handleChange}
               required
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all text-gray-900"
             >
               <option value="">Select a service</option>
               <optgroup label="Barber Services">
@@ -162,7 +162,7 @@ export default function BookingModal({ isOpen, onClose, service = '' }: BookingM
                 onChange={handleChange}
                 required
                 min={new Date().toISOString().split('T')[0]}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all text-gray-900"
               />
             </div>
             <div>
@@ -175,7 +175,7 @@ export default function BookingModal({ isOpen, onClose, service = '' }: BookingM
                 value={formData.time}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all text-gray-900"
               >
                 <option value="">Select time</option>
                 <option value="9:00">9:00 AM</option>
@@ -204,7 +204,7 @@ export default function BookingModal({ isOpen, onClose, service = '' }: BookingM
               value={formData.message}
               onChange={handleChange}
               rows={3}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all resize-none"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all resize-none text-gray-900"
               placeholder="Any special requests or questions..."
             />
           </div>

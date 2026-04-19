@@ -116,7 +116,7 @@ export default function Contact() {
                     type="text"
                     id="firstName"
                     name="firstName"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all text-gray-900 placeholder-gray-500"
                     placeholder="John"
                   />
                 </div>
@@ -128,7 +128,7 @@ export default function Contact() {
                     type="text"
                     id="lastName"
                     name="lastName"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all text-gray-900 placeholder-gray-500"
                     placeholder="Doe"
                   />
                 </div>
@@ -142,7 +142,7 @@ export default function Contact() {
                   type="email"
                   id="email"
                   name="email"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all text-gray-900 placeholder-gray-500"
                   placeholder="john.doe@example.com"
                 />
               </div>
@@ -155,7 +155,7 @@ export default function Contact() {
                   type="tel"
                   id="phone"
                   name="phone"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all text-gray-900 placeholder-gray-500"
                   placeholder="(555) 123-4567"
                 />
               </div>
@@ -167,7 +167,7 @@ export default function Contact() {
                 <select
                   id="service"
                   name="service"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all text-gray-900"
                 >
                   <option value="">Select a service</option>
                   <option value="barber">Barber Services</option>
@@ -185,7 +185,7 @@ export default function Contact() {
                   id="message"
                   name="message"
                   rows={4}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all resize-none"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent outline-none transition-all resize-none text-gray-900 placeholder-gray-500"
                   placeholder="Tell us about your appointment needs or ask any questions..."
                 />
               </div>
