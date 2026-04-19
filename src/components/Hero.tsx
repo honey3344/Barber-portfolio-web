@@ -144,8 +144,8 @@ export default function Hero() {
             </div>
 
             {/* Badge */}
-            <div className="absolute -bottom-6 -right-6 bg-purple-600 text-white p-4 rounded-xl shadow-xl">
-              10+ Years
+            <div className="absolute top-2 right-2 bg-purple-600 text-white p-2 sm:p-3 rounded-lg shadow-lg z-10">
+              <span className="text-xs sm:text-sm font-bold">10+ Years</span>
             </div>
           </motion.div>
         </div>
